@@ -1,0 +1,77 @@
+html {
+    background-color: #252525;
+    
+    -webkit-font-smoothing: antialiased;
+}
+
+.body {
+    background-size: cover;
+  height: 100vh;
+/*  margin: 0;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+header {
+  position: relative;
+     background: no-repeat center/100% url("./media/Particles.gif");
+  background-size: cover;
+  height: 100vh;
+    
+}
+
+
+.vertical-center { 
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+#container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 0px 2px;
+  margin: 5px 10px;
+}
+
+#particles {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.intro-header {
+  color: aliceblue;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 5em;
+  line-height: 100px;
+  text-align: center;
+  z-index: 2;
+}
+
+.intro-text1 {
+  color: aliceblue;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.intro-text2 {
+  color: aliceblue;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
